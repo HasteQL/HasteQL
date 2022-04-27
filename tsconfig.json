@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "es2017",
+        "sourceMap": true,
+        "outDir": "./lib",
+        "baseUrl": "./",
+        "incremental": true,
+        "lib": [ "ESNext", "DOM" ]
+    },
+    "include": ["./src"],
+    "exclude": ["./node_modules"]
+}

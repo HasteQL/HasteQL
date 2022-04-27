@@ -1,0 +1,42 @@
+{
+  "name": "hasteql",
+  "version": "1.0.0",
+  "description": "NestJS + TypeORM + GraphQL + Hasura-style entity querying",
+  "author": "Kikorono",
+  "license": "GPL-3.0-or-later",
+  "main": "./lib/index.js",
+  "scripts": {
+    "start": "ts-node src/dev.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HasteQL/HasteQL.git"
+  },
+  "keywords": [
+    "NestJS",
+    "TypeORM",
+    "GraphQL",
+    "Hasura",
+    "Query",
+    "Language"
+  ],
+  "bugs": {
+    "url": "https://github.com/HasteQL/HasteQL/issues"
+  },
+  "homepage": "https://github.com/HasteQL/HasteQL#readme",
+  "peerDependencies": {
+    "@nestjs/common": ">=8.0.0",
+    "@nestjs/graphql": ">=10.0.0",
+    "tslib": ">=2.3.0",
+    "typeorm": ">=0.3.0",
+    "typescript": ">=4.6.0"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^8.4.4",
+    "@nestjs/graphql": "^10.0.9",
+    "ts-node": "~10.7.0",
+    "tslib": "~2.3.1",
+    "typeorm": "~0.3.6",
+    "typescript": "~4.6.3"
+  }
+}
